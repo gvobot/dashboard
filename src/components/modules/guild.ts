@@ -77,11 +77,10 @@ export const guildModule = {
                         update: { language: langOption.data },
                         create: {
                             guildId: guild.id,
-                            language: langOption.data,
+                            language: 'en-US',
                             themeColor: '#2b2d31',
                             isMembership: false,
-                            featured: false,
-                            duckCoins: 0,
+                            smileys: 0,
                         },
                     });
                 }
