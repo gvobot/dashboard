@@ -66,8 +66,8 @@ export const config: ConfigInterface = {
         websiteName: 'Good Vibes Only',
         colorScheme: 'custom',
         themeColors: {
-            primaryColor: 'string',
-            secondaryColor: 'string',
+            primaryColor: '#6a61af',
+            secondaryColor: '#5e4aa6',
         },
         supportMail: 'support@gvobot.app',
         errror: {
