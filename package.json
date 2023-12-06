@@ -26,8 +26,15 @@
         "url": "https://github.com/gvobot/bot/issues"
     },
     "homepage": "https://github.com/gvobot/bot#readme",
+    "devDependencies": {
+        "@types/node": "^20.6.4",
+        "dotenv": "^16.3.1",
+        "prisma": "^5.6.0",
+        "typescript": "^5.2.2"
+    },
     "dependencies": {
         "@keyv/mongo": "^2.2.8",
+        "@prisma/client": "^5.7.0",
         "connect-mongo": "^5.1.0",
         "dbd-soft-ui": "^1.7.18-beta.1",
         "discord-dashboard": "^2.3.62",

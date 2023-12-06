@@ -80,7 +80,6 @@ export const guildModule = {
                             language: 'en-US',
                             themeColor: '#2b2d31',
                             isMembership: false,
-                            smileys: 0,
                         },
                     });
                 }
