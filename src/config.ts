@@ -1,7 +1,7 @@
 import { ConfigInterface } from './components/typings/index.js';
 import DBD from 'discord-dashboard';
 import dotenv from 'dotenv';
-dotenv.config({ path: '../.env' });
+dotenv.config();
 
 export const config: ConfigInterface = {
     bot: {
@@ -102,7 +102,7 @@ export const config: ConfigInterface = {
             },
         },
         footer: {
-            replaceDefault: true,
+            replaceDefault: false,
             text: 'By Sapphire Development',
         },
         index: {
