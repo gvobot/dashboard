@@ -14,8 +14,8 @@ export const config: ConfigInterface = {
     dbd: {
         license: `${process.env.DBD_LICENSE_KEY}`,
         port: 5050,
-        redirectUri: 'http://localhost:5050/discord/callback',
-        domain: 'http://localhost',
+        redirectUri: 'https://dash.gvobot.app/discord/callback',
+        domain: 'https://dash.gvobot.app',
         ownerIDs: ['711712752246325343'],
         useThemeMaintenance: true,
         useTheme404: true,
